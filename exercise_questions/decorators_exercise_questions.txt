@@ -1,0 +1,11 @@
+Question 1
+Write a decorator function timer that measures the execution time of any function and prints the elapsed time.
+
+Question 2
+Create a decorator function debug that prints the arguments and return value of any function when it is called.
+
+Question 3
+Implement a decorator function cache that caches the return value of any function for future calls with the same arguments.
+
+Question 4
+Write a decorator function log_exceptions that catches any exceptions raised by a function and logs them.
