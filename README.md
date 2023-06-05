@@ -18,6 +18,14 @@ The code examples provided demonstrate various aspects of decorators in Python:
 
 - `decorators-exe.py`: This file contains the code examples demonstrating the usage of decorators in Python. Each example is explained using docstrings to provide clarity on the purpose and functionality of the code.
 
+## Learning Material
+- Video Tutorial: https://youtu.be/MSDKKS9S3z0
+- Video Tutorial Notes: https://docs.google.com/document/d/1rmUJ5FCDUdPH_SCAl3aGIeoecQ2dAvUOUfpRYaeGlbw/edit?usp=sharing
+- Video Tutorial Codes: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/notes
+- Practice Exercise Questions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_questions 
+- Practice Exercise Questions Solutions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_solutions
+
+
 
 
 # Advance Topic 2: Python Lambda, Map, Filter, and Reduce (lambda_map_filter_reduce.py)
