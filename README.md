@@ -1,6 +1,30 @@
 # Python Advance Notes
 This repository is designed to provide you with comprehensive notes and examples for learning Python Advance programming. Whether you are a beginner getting started with Python or an experienced developer looking to refresh your knowledge, this repository is here to support your learning journey.
 
+
+# Steps To Clone Repository
+
+### Windows/Ubuntu
+
+1. Open the command prompt or Git Bash on your Windows machine.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command to clone the repository: 
+```
+git clone https://github.com/hariom2311/Python-Advance-Concepts-Notes.git
+```
+
+## Pull Updates
+
+To get the latest updates from the remote repository, you can follow these steps:
+
+1. Open a terminal or command prompt.
+2. Navigate to the cloned repository directory.
+3. Run the following command to pull the updates:
+```
+git pull origin master
+```
+
+
 # Advance Topic 1: Decorators (decorators-exe.py)
 This repository contains code examples showcasing the concept of decorators in Python. Decorators are a powerful feature in Python that allow you to modify the behavior of functions dynamically. They provide a way to wrap a function, modify its functionality, and return the modified function.
 
