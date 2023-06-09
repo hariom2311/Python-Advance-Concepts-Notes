@@ -95,3 +95,86 @@ The code shows examples of using the `reduce()` function in Python:
 ## File Structure
 
 - `lambda_map_filter_reduce.py`: This file contains the code examples demonstrating the usage of lambda functions, `map()`, `filter()`, and `reduce()` in Python. Each example is explained using comments to provide clarity on the purpose and functionality of the code.
+
+## Learning Material
+- Video Tutorial: https://youtu.be/qp_udoVOlL8
+- Video Tutorial Notes: https://docs.google.com/document/d/1WnJhwCVrlgE9K2pjEAEEZbDxe_cKm3LLGeBvH2U6hZQ/edit?usp=sharing
+- Video Tutorial Codes: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/notes
+- Practice Exercise Questions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_questions 
+- Practice Exercise Questions Solutions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_solutions
+
+# Advance Topic 3 Part-1: Python Collections - ChainMap and Counter
+
+This repository contains code examples showcasing the usage of `collections.ChainMap` and `collections.Counter` in Python. These features provide convenient ways to handle multiple mappings and perform counting operations.
+
+## ChainMap
+
+The code demonstrates the usage of the ChainMap class in Python:
+
+## Merging Multiple Dictionaries
+
+- Two dictionaries, dict1 and dict2, are defined.
+- The dictionaries are combined into a single chain_map using ChainMap(dict1, dict2).
+- The combined chain_map behaves as a single dictionary that retains the original mappings.
+- The output demonstrates accessing values from the chain_map using both individual dictionaries and the chain_map itself.
+
+## Updating Values
+
+- Two dictionaries, dict1 and dict2, are defined.
+- A chain_map is created using ChainMap(dict1, dict2).
+- Values in the chain_map are updated using the update() method.
+- The updated values are accessed from the chain_map.
+- Example 3: Reordering the ChainMap
+
+## Two dictionaries, dict1 and dict2, are defined.
+- A chain_map is created using ChainMap(dict1, dict2).
+- The new_child() method is used to reorder the chain_map.
+- The output demonstrates accessing values from the reordered chain_map.
+
+## Accessing Keys and Values Iteratively
+
+- Two dictionaries, dict1 and dict2, are defined.
+- A chain_map is created using ChainMap(dict1, dict2).
+- The items() method is used to iterate over the keys and values of the chain_map.
+- The keys and values are printed as output.
+## Counter
+The code demonstrates the usage of the Counter class in Python:
+
+## Counting Elements in a List
+
+- A list of elements, my_list, is defined.
+- A counter object is created using Counter(my_list).
+- The counts of each element in the counter are accessed using indexing.
+- The counts are printed as output.
+
+## Counting Characters in a String
+
+- A string, my_string, is defined.
+- A counter object is created using Counter(my_string).
+- The counts of each character in the counter are accessed using indexing.
+- The counts are printed as output.
+
+## Counting Words in a Sentence
+
+- A sentence, my_sentence, is defined.
+- A counter object is created using Counter(my_sentence.split()).
+- The counts of each word in the counter are accessed using indexing.
+- The counts are printed as output.
+
+## Common Patterns and Operations with Counter
+
+- A counter object is created using Counter('abracadabra').
+- Common patterns and operations with counter are demonstrated, including most_common(), arithmetic operations, and updating counts.
+- The results are printed as output.
+
+
+## File Structure
+
+- `notes\collection_module\chainmap_notes.py` and `notes\collection_module\counter_notes.py`: This file contains the code examples demonstrating the usage of `counter` module, `ChainMap()` and `Counter()` in Python. Each example is explained using comments to provide clarity on the purpose and functionality of the code.
+
+## Learning Material
+- Video Tutorial: https://youtu.be/Bh1_-xNGsbU
+- Video Tutorial Notes: https://docs.google.com/document/d/1XI7FlLKGyDLWpsTK2DOWUgIZ3HGeSmlLDb2oZBymYBw/edit?usp=sharing
+- Video Tutorial Codes: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/notes/collection_module
+- Practice Exercise Questions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_questions/collection_exercise_questions 
+- Practice Exercise Questions Solutions: https://github.com/hariom2311/Python-Advance-Concepts-Notes/tree/master/exercise_solutions/collection_exercise_solution
