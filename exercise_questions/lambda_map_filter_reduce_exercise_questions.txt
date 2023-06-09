@@ -1,0 +1,8 @@
+Question 1
+Write a program to filter out the even numbers from a given list using the filter function and a lambda function.
+
+Question 2
+Write a program to square all elements in a given list using the map function and a lambda function.
+
+Question 3
+Write a program to calculate the sum of all numbers in a given list using the reduce function and a lambda function.

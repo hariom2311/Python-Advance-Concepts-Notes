@@ -1,0 +1,11 @@
+Question 1
+Combine two dictionaries into a single dictionary using ChainMap and update the values of common keys.
+
+Question 2
+Update the values of a key in multiple dictionaries using ChainMap.
+
+Question 3
+Count the frequency of each element in a list using Counter.
+
+Question 4
+Find the most common elements and their frequencies in a list using Counter.
