@@ -1,0 +1,9 @@
+Question 1: Create a dictionary with the squares of numbers from 1 to 5.
+
+Question 2: Convert a list of strings into a dictionary with string lengths as keys.
+
+Question 3: Filter out key-value pairs from a dictionary based on a condition.
+
+Question 4: Create a dictionary from two lists using list comprehension.
+
+Question 5: Convert a dictionary of names and ages into a dictionary of ages and names.

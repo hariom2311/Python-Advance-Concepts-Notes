@@ -1,0 +1,9 @@
+Question 1: Multiply each element in a given list by 2 using list comprehension.
+
+Question 2: Extract all uppercase letters from a string using list comprehension.
+
+Question 3: Remove all duplicates from a given list using list comprehension.
+
+Question 4: Create a list of squares of numbers from 1 to 10 using list comprehension.
+
+Question 5: Filter out all odd numbers from a given list using list comprehension.
