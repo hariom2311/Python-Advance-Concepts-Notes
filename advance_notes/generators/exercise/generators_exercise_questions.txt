@@ -1,0 +1,5 @@
+Question 1: Create a generator function countdown(n) that counts down from n to 0.
+
+Question 2: Create a generator function fibonacci(n) that generates the first n Fibonacci numbers.
+
+Question 3: Create a generator function odd_numbers(n) that generates the first n odd numbers.

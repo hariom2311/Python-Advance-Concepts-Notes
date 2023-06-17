@@ -1,3 +1,5 @@
+
+
 """
 generators provide a powerful and flexible tool for handling data sequences, enabling memory-efficient and
 computationally efficient processing, simplified code structure, and support for infinite or large-scale data streams.
@@ -45,6 +47,7 @@ function.
 
 
 
+
 # Filtering Elements:
 def even_numbers_generator(n):
     for i in range(n):
@@ -63,6 +66,8 @@ It filters out odd numbers by using an if statement within the generator functio
 
 
 
+
+
 # Infinite Stream of Data:
 def infinite_stream_generator():
     i = 0
@@ -75,7 +80,20 @@ gen = infinite_stream_generator()
 for _ in range(10):
     print(next(gen))
 
+
+# There are several benefits of using generators in Python:
 """
 The infinite_stream_generator function generates an infinite stream of numbers starting from 0.
 It keeps incrementing the value of i and yields it indefinitely.
+"""
+
+"""
+Memory Efficiency: Generators produce values on-the-fly, one at a time, without storing the entire sequence in memory.
+This makes them memory-efficient, especially when dealing with large or infinite sequences.
+"""
+
+"""
+Lazy Evaluation: Generators employ lazy evaluation, meaning they generate values only when requested.
+This allows for efficient processing of data, particularly when dealing with large datasets or computations
+that require a subset of the data.
 """
