@@ -72,3 +72,40 @@ chain_map = ChainMap(dict1, dict2)
 for key, value in chain_map.items():
     print(key, value)
 
+
+from collections import ChainMap
+
+dict1 = {'name': 'Alice', 'age': 25}
+dict2 = {'name': 'Monkey', 'city': "New York"}
+dict3 = {'language': 'Python', 'experience': '5 years'}
+
+chain_map = ChainMap(dict1, dict2, dict3)
+print(chain_map)  # Output: ChainMap({'name': 'Alice', 'age': 25}, {'name': 'Monkey', 'city': 'New York'}, {'language': 'Python', 'experience': '5 years'})
+
+print(chain_map['name'])  # Output: Alice
+
+dict1 = {'name': 'Monkey', 'age': 25}
+chain_map = ChainMap(dict1, dict2, dict3)
+print(chain_map)  # Output: ChainMap({'name': 'Monkey', 'age': 25}, {'name': 'Alice', 'city': 'New York'}, {'language': 'Python', 'experience': '5 years'})
+
+print(chain_map['name'])
+
+from collections import ChainMap
+
+dict1 = {'name': 'Alice', 'age': 25}
+dict2 = {'name': 'Monkey', 'city': 'New York'}
+dict3 = {'language': 'Python', 'experience': '5 years'}
+
+chain_map = ChainMap(dict1, dict2, dict3)
+print(chain_map) 
+# Output: ChainMap({'name': 'Alice', 'age': 25}, {'name': 'Monkey', 'city': 'New York'}, {'language': 'Python', 'experience': '5 years'})
+
+# we can use chain_map.maps
+print(chain_map.maps)
+# Output [{'name': 'Alice', 'age': 25}, {'name': 'Monkey', 'city': 'New York'}, {'language': 'Python', 'experience': '5 years'}]
+
+name1 = chain_map.maps[0]['name'] 
+name2 = chain_map.maps[1]['name']
+
+print(name1)  # Output: Alice
+print(name2)  # Output: Monkey

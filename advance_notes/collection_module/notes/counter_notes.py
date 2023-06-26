@@ -127,6 +127,19 @@ list_of_pairs = [('a', 3), ('b', 2), ('c', 1)]
 c = Counter(dict(list_of_pairs))
 print(c)  # Output: Counter({'a': 3, 'b': 2, 'c': 1})
 
+list_of_pairs = [('a', 3), ('b', 2), ('c', 1)]
+c = Counter(list_of_pairs)
+print(c)
+
+list_of_pairs = [('a', 3), ('b', 2), ('c', 1)]
+c = Counter(list_of_pairs)
+print(c)
+
+list_of_pairs = [('a', 3), ('b', 2), ['c', 1]]
+c = Counter(list_of_pairs)
+print(c)
+
+
 # 8. c.most_common()[:-n-1:-1]: Returns the n least common elements as a list of (elem, count) pairs.
 from collections import Counter
 
